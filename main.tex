@@ -1,0 +1,53 @@
+% Initial structure shown below by ChatGPT
+
+\documentclass[runningheads]{llncs}
+
+% Include packages and custom commands
+% Essential packages
+\usepackage[T1]{fontenc} % Ensure T1 font encoding for correct character rendering
+\usepackage{graphicx}    % For including figures
+\usepackage{amsmath, bm} % For mathematical formatting
+\usepackage{hyperref, color} % For hyperlinks and colored links
+\usepackage{siunitx}     % For handling SI units
+\let\DeclareUSUnit\DeclareSIUnit
+\let\US\SI
+\DeclareUSUnit\inch{in}  % Declare US unit for inches
+
+% Allow for subsubsections
+\setcounter{secnumdepth}{3}
+
+% Custom commands
+\providecommand{\abs}[1]{\lvert#1\rvert} % Absolute value
+\providecommand{\norm}[1]{\lVert#1\rVert} % Norm
+
+
+
+\begin{document}
+
+% Title page
+\title{PLC-Controlled Volleyball Launcher with Adjustable Ball Trajectory, Velocity, and Spin}
+\author{M. Jack Lutz}
+\institute{Portland, OR, \email{jack.lutz1113@icloud.com}}
+\date{\today}
+\maketitle
+
+
+% % Table of Contents~
+% \tableofcontents
+% \listoffigures
+% \listoftables
+
+% Chapters
+\input{1_system_requirements/1_system_requirements.tex}
+\input{2_conceptual_development/2_conceptual_development.tex}
+\input{3_component_selection/3_component_selection.tex}
+\input{4_design_and_implementation/4_design_and_implementation.tex}
+\input{5_prototyping_and_testing/5_prototyping_and_testing.tex}
+
+% % Appendices
+% \appendix
+% \input{appendices/appendixA}
+% \input{appendices/appendixB}
+
+
+\end{document}
