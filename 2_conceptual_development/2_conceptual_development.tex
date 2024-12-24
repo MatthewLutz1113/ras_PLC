@@ -1,6 +1,18 @@
 \section{Conceptual Development}
 
-Several ideas were bounced around as to how to launch the ball. A catapult-style launcher was completely ruled out since the moving parts required to hit the ball at 40 mph would be quite hazardous with numerous pinch and crush points. Thus, it was decided to design a launcher with dual opposite-direction wheels which shoot the ball out, similar to a tennis ball launcher.
+The heart of the project is the PLC (simulated by an Arduino). 
 
-\subsection{Motor Torque Calcs}
+\subsection{Motors} 
+
+There are three motors total in the project. One motor actuates the belt which linearly opens and closes the blinds, sliding the wand control along the rail. The second motor is attached to the wand control, where the wand would normally attach. The third motor operates in a similar mannar to the first, except that it is connected to the sliding screen door.
+
+All three motors will need to have some level of torque and speed, to be determined, and will likely need a slightly larger power supply than that supplied on the Arduino. Thus, a power amplifier will be necessary.
+
+\subsection{PLC}
+
+The PLC recieves input from limit switches and other sensors on the blinds, and sends output to the Arduino. 
+
+\subsection{Arduino}
+
+The Arduino recieves input from the PLC as well as sensors, and sends output to power amplifiers.
 
