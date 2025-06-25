@@ -1,2 +1,2 @@
-# volleyball_launcher
-A volleyball launcher operated by commands from a PLC with specifiable ball velocity, trajectory, and rotation.
+# Sliding Door Control
+Uses a Raspberry Pi as a PLC, with OpenPLC, to control sliding door blinds movement and rotation. Input commands are from sensors as well as HomeKit commands input using the HomeBridge Module. 
