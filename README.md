@@ -9,12 +9,8 @@ Uses a Raspberry Pi as a PLC, with OpenPLC, to control sliding door blinds movem
 
 https://github.com/tnys/homebridge-gpio
 
-`git clone git://github.com/jamesblanksby/quick2wire-gpio-admin.git
-
+`git clone git://github.com/jamesblanksby/quick2wire-gpio-admin.git \n
 cd quick2wire-gpio-admin
-
 make
-
 sudo make install
-
 sudo adduser $USER gpio`
