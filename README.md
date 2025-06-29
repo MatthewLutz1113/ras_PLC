@@ -5,7 +5,7 @@ Uses a Raspberry Pi as a PLC, with OpenPLC, to control sliding door blinds movem
 
 `yadda`
 
-## Install HomeBridge GPIO Plugin
+## Install HomeBridge GPIO Plugin on Teensy
 
 https://github.com/tnys/homebridge-gpio
 
@@ -13,4 +13,6 @@ https://github.com/tnys/homebridge-gpio
 cd quick2wire-gpio-admin
 make
 sudo make install
-sudo adduser $USER gpio
+sudo adduser $USER gpio```
+
+Yay
