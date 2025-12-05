@@ -1,0 +1,1 @@
+{"rule":"A_INSTALL","sentence":"^\\QAfter the install is complete and the Raspberry Pi reboots, the OpenPLC webserver can be accessed through\\E$"}
